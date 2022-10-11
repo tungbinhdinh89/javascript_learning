@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  margin: 40px 80px;
+}
+
+img {
+  width: 350px;
+  height: 350px;
+}
+
+h1,
+p {
+  align-items: center;
+  text-align: center;
+  margin: 60px 200px;
+}
+
+.product {
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 20px;
+  bottom: 60px;
+}
+.center {
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin-top: 30px;
+  display: inline-flex;
+}
+
+.price {
+  position: absolute;
+  display: inline-block;
+  width: 300px;
+  height: 150px;
+  background-color: rgb(255, 255, 255);
+  margin-left: -1125px;
+}
+/* .absolute {
+  position: absolute;
+} */
+
+.bottom {
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  position: sticky;
+  border: 3px solid #8ac007;
+}
+button {
+  padding: 15px 50px;
+}
